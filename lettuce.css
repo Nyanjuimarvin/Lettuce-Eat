@@ -12,6 +12,7 @@ header{
 .belowHeader{
     height: 490px;
     border: 2px solid;
+    background-color: #e1ebe6;
 }
 .review{
     height: 550px;
@@ -24,6 +25,7 @@ main{
     height: 800px;
     padding-top: 30px;
     border: 2px solid;
+    background-color: #e1ebe6;
 }
 footer{
     height: 300px;
