@@ -2,8 +2,11 @@ body{
     margin: 10px;
 }
 header{
-    height: 900px;
+    height: 550px;
     padding-left: 40px;
+    background-image: url(images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid;
 }
 .belowHeader{
@@ -38,21 +41,26 @@ footer{
 }
 nav{
     display: flex;
+    padding-top: 5px;
+}
+.links{
+    margin-left: 375px;
 }
 ul{
     list-style-type: none;
     padding: 10px 40px;
 }
 li{
-    padding: 0 40px; 
+    padding: 0 20px; 
 }
 a{
     text-decoration: none;
+    color: #ffff;
 }
 .links>ul>li{
     display: inline-block;
     vertical-align: middle;
-    }
+}
 
 #homebox{
     width: 120px;
@@ -63,8 +71,9 @@ a{
     color: #ffff;
 }
 .welcome{
-    padding-top: 250px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #ffff;
 }
 .order{
     width: 110px;
