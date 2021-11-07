@@ -188,6 +188,8 @@ a{
 
 footer :first-child{
     line-height: 20px;
+    font-style: italic;
+    font-size: 300;
 }
 footer :nth-child(2){
     line-height: 50px;
