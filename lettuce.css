@@ -63,11 +63,14 @@ ul{
 }
 
 #menu1{
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
     border: 2px solid;
     margin-left: 60px;
     margin-bottom: 30px;
+}
+#float{
+    float: right;
 }
 
 #booking{
