@@ -1,9 +1,32 @@
 body{
-    margin: 50px;
+    margin: 10px;
 }
 header{
     height: 900px;
-    
+    padding-left: 40px;
+    border: 2px solid;
+}
+.belowHeader{
+    height: 490px;
+    border: 2px solid;
+}
+.review{
+    height: 550px;
+    border: 2px solid;
+    padding-top: 80px;
+    padding-left: 700px;
+    text-align: center;
+}
+main{
+    height: 800px;
+    padding-top: 30px;
+    border: 2px solid;
+}
+footer{
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+    border: 2px solid;
 }
 
 #logo{
@@ -35,15 +58,20 @@ a{
     width: 120px;
     height: 30px;
     border: 2px solid;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
     background-color: #f19201;
+    color: #ffff;
+}
+.welcome{
+    padding-top: 250px;
+    padding-bottom: 100px;
 }
 .order{
     width: 110px;
     height: 40px;
     border: 2px solid;
     background-color: #f19201;
+    color: #ffff;
 }
 #services{
     text-align: center;
@@ -63,8 +91,7 @@ a{
     justify-items: center;
 }
 .menu{
-    text-align: center
-    ;
+    text-align: center;
 }
 #flex1{
     width: 300px;
@@ -84,9 +111,7 @@ a{
     border: none;
     font-size: 16px;
 }   
-.review{
-    padding-left: 800px;
-}
+
 .top{
     display: flex;
     justify-content: center;
@@ -113,9 +138,6 @@ a{
     margin: 0 40px;
 }
 
-footer{
-    text-align: center;
-}
 footer :nth-child(3){
     width: 100px;
     height: 30px;
