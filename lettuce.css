@@ -27,6 +27,9 @@ ul{
     height: 40px;
     border: 2px solid;
 }
+#services{
+    text-align: center;
+}
 #number{
     width: 40px;
     height: 40px;
@@ -34,15 +37,19 @@ ul{
 }
 .orderfood{
     width: 100px;
-    height: 40px;
+    height: 32px;
     border: 2px solid;
+    text-align: center;
+    padding: 2px;
 }
 .container1{
     display: flex;
     justify-content: center;
     justify-items: center;
 }
-
+.menu{
+    text-align: center;
+}
 #flex1{
     width: 300px;
     height: 300px;
@@ -58,19 +65,22 @@ ul{
     display: flex;
     justify-content: center;
  }
+
 #menu1 img{
-    width: 200px;
+    width: 220px;
+    padding: 14px 10px 10px 20px;
 }
 
 #menu1{
     width: 500px;
-    height: 300px;
+    height: 240px;
     border: 2px solid;
     margin-left: 60px;
     margin-bottom: 30px;
 }
 #float{
     float: right;
+    margin: 0 40px;
 }
 
 #booking{
