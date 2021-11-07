@@ -34,6 +34,18 @@ header{
     background-color: #0000;
     display: inline-block;
 }
+.rev{
+    margin-bottom: 10px;
+    position: relative;
+}
+.rev ::after{
+    content: 'R';
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+}
 main{
     height: 800px;
     padding-top: 30px;
@@ -60,6 +72,7 @@ footer{
 nav{
     display: flex;
     padding-top: 5px;
+    background: rgba(0,0,0,.5);
 }
 .links{
     margin-left: 375px;
@@ -68,12 +81,16 @@ ul{
     list-style-type: none;
     padding: 10px 40px;
 }
+
 li{
     padding: 0 20px; 
 }
 a{
     text-decoration: none;
     color: #ffff;
+}
+#home{
+    color: #f19201;
 }
 .links>ul>li{
     display: inline-block;
@@ -102,9 +119,6 @@ a{
 #services{
     text-align: center;
 }
-#services p{
-    font-style: italic;
-}
 
 .orderfood{
     width: 100px;
@@ -116,6 +130,9 @@ a{
 }
 #services :first-child{
     color: #f19201;
+}
+#services p{
+    font-style: italic;
 }
 .container1{
     display: flex;
@@ -134,8 +151,8 @@ a{
 #flex1{
     width: 300px;
     height: 260px;
-    border: 2px solid;
     margin-left: 60px;
+    margin-top: 15px;
     text-align: center;
     background-color: #fff;
 } 
@@ -172,7 +189,7 @@ a{
 #menu1{
     width: 500px;
     height: 240px;
-    border: 2px solid;
+    box-shadow: 1px 1px 1px 1px #ffff;
     margin-left: 60px;
     margin-bottom: 30px;
     background-color: #ffff;
@@ -191,5 +208,4 @@ a{
 footer :nth-child(3){
     width: 100px;
     height: 30px;
-    border: 2px solid #fff;
 }
