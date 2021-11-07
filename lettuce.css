@@ -37,11 +37,13 @@ a{
     border: 2px solid;
     margin-left: auto;
     margin-right: auto;
+    background-color: #f19201;
 }
 .order{
     width: 110px;
     height: 40px;
     border: 2px solid;
+    background-color: #f19201;
 }
 #services{
     text-align: center;
@@ -53,6 +55,7 @@ a{
     border: 2px solid;
     text-align: center;
     padding: 2px;
+    background-color: #e1ebe6;
 }
 .container1{
     display: flex;
