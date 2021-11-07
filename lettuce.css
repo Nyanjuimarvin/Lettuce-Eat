@@ -37,6 +37,11 @@ ul{
     height: 40px;
     border: 2px solid;
 }
+.container1{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
 
 #flex1{
     width: 300px;
@@ -44,6 +49,14 @@ ul{
     border: 2px solid;
 }  
 
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom{
+    display: flex;
+    justify-content:space-around ;
+ }
 #menu1 img{
     width: 200px;
 }
