@@ -15,7 +15,18 @@ nav{
 }
 ul{
     list-style-type: none;
+    padding: 10px 40px;
 }
+li{
+    padding: 0 40px; 
+}
+a{
+    text-decoration: none;
+}
+.links>ul>li{
+    display: inline-block;
+    vertical-align: middle;
+    }
 
 #homebox{
     width: 120px;
@@ -30,11 +41,7 @@ ul{
 #services{
     text-align: center;
 }
-#number{
-    width: 40px;
-    height: 40px;
-    border: 2px solid;
-}
+
 .orderfood{
     width: 100px;
     height: 32px;
@@ -48,14 +55,23 @@ ul{
     justify-items: center;
 }
 .menu{
-    text-align: center;
+    text-align: center
+    ;
 }
 #flex1{
     width: 300px;
     height: 300px;
     border: 2px solid;
     margin-left: 60px;
-}  
+    text-align: center;
+} 
+#flex1 :first-child{
+    display: inline;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    border: 2px solid;
+} 
 
 .top{
     display: flex;
@@ -83,8 +99,13 @@ ul{
     margin: 0 40px;
 }
 
-#booking{
+footer{
+    text-align: center;
+}
+footer :nth-child(3){
     width: 100px;
     height: 30px;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid;
 }
