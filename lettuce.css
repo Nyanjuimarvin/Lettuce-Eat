@@ -1,3 +1,6 @@
+body{
+    margin: 50px;
+}
 header{
     height: 900px;
     
@@ -62,20 +65,22 @@ a{
 }
 #flex1{
     width: 300px;
-    height: 300px;
+    height: 260px;
     border: 2px solid;
     margin-left: 60px;
     text-align: center;
 } 
 #flex1 :first-child{
+    margin-top: 20px;
     width: 50px;
     height: 50px;
-    border: 2px solid;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-} 
+    background-color: #f19201;
+    color: #ffff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}   
 .review{
     padding-left: 800px;
 }
