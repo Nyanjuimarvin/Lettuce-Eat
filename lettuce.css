@@ -20,6 +20,10 @@ header{
     padding-top: 80px;
     padding-left: 700px;
     text-align: center;
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    background-size: 680px;
+    ba
 }
 main{
     height: 800px;
@@ -32,6 +36,9 @@ footer{
     padding-top: 100px;
     text-align: center;
     border: 2px solid;
+    background-image: url(images/image8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo{
@@ -96,6 +103,9 @@ a{
     padding: 2px;
     background-color: #e1ebe6;
 }
+#services :first-child{
+    color: #f19201;
+}
 .container1{
     display: flex;
     justify-content: center;
@@ -103,6 +113,9 @@ a{
 }
 .menu{
     text-align: center;
+}
+.menu > h3{
+    color: #f19201;
 }
 #flex1{
     width: 300px;
@@ -143,10 +156,14 @@ a{
     border: 2px solid;
     margin-left: 60px;
     margin-bottom: 30px;
+    background-color: #ffff;
 }
 #float{
     float: right;
     margin: 0 40px;
+}
+#float :nth-child(4){
+    color: #f19201;
 }
 
 footer :nth-child(3){
@@ -154,5 +171,5 @@ footer :nth-child(3){
     height: 30px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid;
+    border: 2px solid #fff;
 }
