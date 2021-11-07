@@ -32,6 +32,8 @@ a{
     width: 120px;
     height: 30px;
     border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 .order{
     width: 110px;
@@ -66,13 +68,17 @@ a{
     text-align: center;
 } 
 #flex1 :first-child{
-    display: inline;
-    width: 40px;
-    height: 40px;
-    margin-top: auto;
+    width: 50px;
+    height: 50px;
     border: 2px solid;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 } 
-
+.review{
+    padding-left: 800px;
+}
 .top{
     display: flex;
     justify-content: center;
